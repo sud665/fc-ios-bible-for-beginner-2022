@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		504740462ACBDA8300038E61 /* StockRankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504740452ACBDA8300038E61 /* StockRankViewController.swift */; };
+		504740482ACBEA3B00038E61 /* StockRankCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504740472ACBEA3B00038E61 /* StockRankCollectionViewCell.swift */; };
 		944800E2280EE8ED00D7E44C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944800E1280EE8ED00D7E44C /* AppDelegate.swift */; };
 		944800E4280EE8ED00D7E44C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944800E3280EE8ED00D7E44C /* SceneDelegate.swift */; };
 		944800E9280EE8ED00D7E44C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944800E7280EE8ED00D7E44C /* Main.storyboard */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		504740452ACBDA8300038E61 /* StockRankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockRankViewController.swift; sourceTree = "<group>"; };
+		504740472ACBEA3B00038E61 /* StockRankCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockRankCollectionViewCell.swift; sourceTree = "<group>"; };
 		944800DE280EE8ED00D7E44C /* StockRank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockRank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		944800E1280EE8ED00D7E44C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		944800E3280EE8ED00D7E44C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				944800E3280EE8ED00D7E44C /* SceneDelegate.swift */,
 				94480115280EF1E800D7E44C /* StockModel.swift */,
 				944800E7280EE8ED00D7E44C /* Main.storyboard */,
+				504740472ACBEA3B00038E61 /* StockRankCollectionViewCell.swift */,
+				504740452ACBDA8300038E61 /* StockRankViewController.swift */,
 				944800EA280EE8EE00D7E44C /* Assets.xcassets */,
 				944800EC280EE8EE00D7E44C /* LaunchScreen.storyboard */,
 				944800EF280EE8EE00D7E44C /* Info.plist */,
@@ -191,7 +197,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
-				LastUpgradeCheck = 1330;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					944800DD280EE8ED00D7E44C = {
 						CreatedOnToolsVersion = 13.3;
@@ -260,7 +266,9 @@
 			files = (
 				944800E2280EE8ED00D7E44C /* AppDelegate.swift in Sources */,
 				94480116280EF1E800D7E44C /* StockModel.swift in Sources */,
+				504740482ACBEA3B00038E61 /* StockRankCollectionViewCell.swift in Sources */,
 				944800E4280EE8ED00D7E44C /* SceneDelegate.swift in Sources */,
+				504740462ACBDA8300038E61 /* StockRankViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +360,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -412,6 +421,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
